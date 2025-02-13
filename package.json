@@ -1,0 +1,26 @@
+{
+  "name": "sobeys",
+  "version": "1.0.0",
+  "description": "Scene+ Smart Personalization Engine",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm install && npm run install:frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "dependencies": {
+    "@types/recharts": "^1.8.29",
+    "recharts": "^2.15.1"
+  }
+}
